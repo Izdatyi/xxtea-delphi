@@ -27,7 +27,7 @@ function Decrypt(const Data, Key: TBytes): TBytes;
 implementation
 
 type
-  TUint32 = LongWord;
+  TUint32 = FixedUInt;
   TUint32Array = array of TUint32;
 
 const
